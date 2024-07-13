@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Search and Open</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="Enter URL or search query...">
+  <ul id="suggestions"></ul>
+  <button class="button" id="searchButton">Search</button>
+  <button class="button" id="clearHistoryButton">Delete search history</button>
+  <select id="searchFilter">
+    <option value="web">Web</option>
+    <option value="images">Images</option>
+    <option value="youtube">YouTube</option>
+  </select>
+  <button class="button" id="toggleThemeButton">Toggle Dark mode</button>
+  <script src="popup.js"></script>
+</body>
+</html>
