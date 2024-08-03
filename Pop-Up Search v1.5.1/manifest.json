@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Pop-Up Search",
+  "version": "1.5.1",
+  "description": "Opens a prompt with search suggestions and URL completion.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://suggestqueries.google.com/"
+  ],
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  },
+  "commands": {
+    "open-popup": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      },
+      "description": "Open custom search popup"
+    }
+  }
+}

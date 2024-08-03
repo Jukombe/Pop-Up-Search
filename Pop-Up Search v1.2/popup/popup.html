@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Search and Open</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="Enter URL or search query...">
+  <ul id="suggestions"></ul>
+  <select id="searchFilter">
+    <option value="web">Web</option>
+    <option value="images">Images</option>
+    <option value="youtube">YouTube</option>
+  </select>
+  <div class="button-container">
+       <div class="side-buttons">
+      <button class="button small-button" id="clearHistoryButton">Clear History</button>
+      <button class="button small-button" id="toggleThemeButton">Toggle Dark Mode</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
