@@ -2,7 +2,7 @@
 
 ## Download
 
-[Download Pop-Up Search v1.1](https://github.com/USERNAME/my-firefox-addon/releases/latest)
+[Download Pop-Up Search latest Version]([https://github.com/USERNAME/my-firefox-addon/releases/latest](https://addons.mozilla.org/en-US/firefox/addon/pop-up-search/))
 
 
 The program is a custom Firefox add-on that serves as a simple search and URL-opening interface. It allows users to input URLs or search queries while providing suggestions from their local history and Google. The main features include:
